@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shramdaan Connect
 
 A starter full-stack community resource and skill mapper inspired by the Shramdaan Connect project name and public description. The live site could not be reliably inspected during preparation, so this is a fresh recreation rather than a copy of its original source code.
@@ -48,3 +49,6 @@ npm run build
 - This is a functional demo starter, not the original Replit source code.
 - Listings and volunteer registrations are held in server memory. Add a database (SQLite/PostgreSQL/MongoDB) and authentication before using real community data.
 - Do not put passwords, API keys, or private personal information into the frontend.
+=======
+# shramdaan-connect
+>>>>>>> 39c4671e0a3a1c750a38285b47a0078ca066f02b
