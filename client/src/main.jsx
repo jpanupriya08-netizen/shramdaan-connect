@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API = "http://localhost:4000/api";
+const API = import.meta.env.VITE_API_URL ||"http://localhost:4000/api";
 const categories = ["All categories", "Education", "Environment", "Skilled Work", "Community Support", "Health & Wellbeing", "Arts & Culture"];
 const initialForm = { name: "", category: "Community Support", type: "Offer", location: "", description: "", contact: "" };
 
